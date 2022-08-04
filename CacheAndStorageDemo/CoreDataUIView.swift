@@ -19,7 +19,6 @@ struct CoreDataUIView: View {
         Text(student.name ?? "")
       }.onDelete(perform: deleteRow(at:))
     }
-    
     Button(action: {
       let firstNames = ["赵", "钱", "孙", "李", "周"]
       let lastNames = ["三", "四", "五", "六"]
